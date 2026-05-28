@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Elite Habit Tracker</title>
+    <title>Theo Habit Tracker</title>
+    
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,39 +16,42 @@
         <div class="main-layout">
             
             <aside class="avatar-column">
+                <h1 class="avatar-title-neon">THEO</h1>
+                
                 <div class="speech-bubble">
-                    <p id="sarcasm-text">Ah, resolveu aparecer? Achei que tivesse desistido ontem.</p>
+                    <p id="sarcasm-text">Bora logar! O servidor tá aberto e as quests não vão se completar sozinhas.</p>
                 </div>
+                
                 <div class="avatar-frame">
-                    <img id="avatar-img" src="img/avatar_normal.png" alt="Avatar">
+                    <img id="avatar-img" src="img/Theo01.png" alt="Avatar Theo">
                 </div>
             </aside>
 
             <section class="dashboard-wrapper">
-                <header class="top-bar">
-                    <h1 id="month-display" class="medieval-font">MAY</h1>
-                </header>
-
                 <main class="dashboard-panel">
+                    
                     <div class="calendar-side">
+                        <h1 id="month-display" class="minecraft-font">MAY</h1>
                         <div id="calendar-grid"></div>
                     </div>
 
                     <div class="checklist-side">
                         <div class="checklist-card">
-                            <h2 id="day-label" class="medieval-font">Day 11</h2>
-                            <p class="consistency">Consistency: <span id="progress-val">0%</span></p>
+                            <h2 id="day-label" class="minecraft-font">Dia 11</h2>
+                            <p class="consistency">Consistência: <span id="progress-val">0%</span></p>
                             
                             <div id="task-list" class="inner-scroll"></div>
 
                             <div class="add-task-row">
-                                <input type="text" id="new-task-input" placeholder="New quest...">
+                                <input type="text" id="new-task-input" placeholder="Nova missão...">
                                 <button id="add-btn">ADD</button>
                             </div>
                         </div>
                     </div>
+
                 </main>
             </section>
+            
         </div>
     </div>
 
