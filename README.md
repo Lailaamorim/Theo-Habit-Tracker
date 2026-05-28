@@ -70,8 +70,7 @@ Elementos criativos inspirados em universos como Minecraft para tornar a rotina 
 ## 🚀 Acesse o Projeto
 
 <p align="center">
-  <a href="http://lailaamorim.github.io/Theo-Habit-Tracker/
-
+  <a href="http://lailaamorim.github.io/Theo-Habit-Tracker
 /">
     <img src="https://img.shields.io/badge/🔗_Abrir_Projeto-111111?style=for-the-badge">
   </a>
